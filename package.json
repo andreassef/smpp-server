@@ -1,7 +1,7 @@
 {
-  "name": "smsc",
+  "name": "Servidor smpp",
   "version": "1.0.0",
-  "description": "",
+  "description": "Assef",
   "main": "index.js",
   "scripts": {
     "start": "node ./src/app.js"
@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "redis": "^4.6.7",
     "smpp": "^0.6.0-rc.4"
   }
 }
